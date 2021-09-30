@@ -5,10 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index_1.css">
 </head>
 <body>
-    
+    A simple Calculator
+    <div class="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                    <div id="output">
+                        <p id="output-value"></p>
+                    </div>
+                </div>
+              
+            </div>
+            <div id="keyboard">
+                <button class="operator" id="clear" style="background-color: red;">C</button>
+                <button class="operator" id="backspace" style="background-color: rosybrown;">CE</button>
+                <button class="operator" id="number" style="background-color: seagreen;">%</button>
+                <button class="operator" id="/">/</button>
+                <button class="operator" id="number">7</button>
+                <button class="operator" id="number">8</button>
+                <button class="operator" id="number">9</button>
+                <button class="operator" id="*">*</button>
+                <button class="operator" id="number">4</button>
+                <button class="operator" id="number">5</button>
+                <button class="operator" id="number">6</button>
+                <button class="operator" id="-">-</button>
+                <button class="operator" id="number">1</button>
+                <button class="operator" id="number">2</button>
+                <button class="operator" id="number">3</button>
+                <button class="operator" id="+">+</button>
+                <button class="operator" id="empty"></button>
+                <button class="operator" id="number">0</button>
+                <button class="operator" id="empty"></button>
+                <button class="operator" id="=">=</button>
+            </div>
+        </div>
+
+    </div>
 </body>
 <script src="./index_1.js"></script>
 </html>
