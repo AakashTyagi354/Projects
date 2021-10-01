@@ -13,3 +13,8 @@ function printOutput(num){
 }
 printOutput("222");
 printHistory("3+4");
+
+function add(){
+    let one = 
+
+}
