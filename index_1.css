@@ -30,13 +30,14 @@ background-color: rgb(238, 228, 228);
     margin: 0% 20px;
     padding-top: 20px;
     font-size: 15px;
-    color: white;
+    color: rgb(78, 10, 10);
 }
 #output{
     text-align: right;
     height: 50px;
     margin: 10px 20px;
     font-size: 30px;
+    color: blue;
 
 }
 /* #output-value{
