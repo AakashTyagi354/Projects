@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    background-color: #184A45FF;
+    text-align: center;
+    height: 50px;
+    width: 100vw;
+    padding-top: 15px;
+}
+h1{
+    color: #FC766AFF;
+    text-shadow: #B0B8B4FF;
+}
+
+button{
+    border-radius: 10px;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    font-size: 20px;
+    border-style: solid;
+    box-shadow: white;
+    color: white;
+
+     
+}
+button:hover{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.container{
+    text-align: center;
+    margin-top: 40vh;
+}
+.btn{
+    margin-top: 40px;
+    text-align: center;
+
+}
