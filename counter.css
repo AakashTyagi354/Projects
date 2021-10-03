@@ -1,0 +1,42 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-color: black;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    color: wheat;
+}
+.button-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#value{
+    text-align: center;
+    font-family: 'Birthstone', cursive;
+    font-size: 100px;
+    color: red;
+
+}
+.btn{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px  50px;
+    border-radius: 8px;
+    font-family: 'Birthstone', cursive;
+    background-color: #F2AA4CFF;
+    font-size: 30px;
+}
+.btn:hover{
+    background-color: #2DA8D8FF;
+}
+.button-con{
+    margin-top: 50px;
+}

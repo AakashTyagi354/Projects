@@ -1,13 +1,4 @@
-//  let count = 0;
-
-//  const value = document.querySelector('#value');
-//  const btns = document.querySelector(".btn");
-//  btns.forEach(function (btn){
-//         btn.addEventListener('click',function(e){
-//              const style = e.currentTarget.classList;
-//              if(style)
-//         })
-//  });
+ 
 
 let add = document.getElementById('increase');
 let remove = document.getElementById('decrease');
@@ -22,8 +13,10 @@ add.addEventListener('click', function(){
 remove.addEventListener('click', function(){
     integer -= 1;
     int.innerHTML = integer;
+     
 })
 reset.addEventListener('click', function(){
     integer = 0;
     int.innerHTML = integer;
+     
 })
